@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:element name="books">
+	<xs:element name="booksLibrary">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element name="books"/>
 				<xs:element name="title" type="xs:string"/>
 				<xs:element name="sub_title" type="xs:string"/>
 				<xs:element name="edition" type="xs:string"/>
@@ -13,7 +14,9 @@
 				<xs:element name="year">
 					<xs:simpleType>
 						<xs:restriction base="xs:integer">
-							<xs:length value="4"/>
+							<xs:totalDigits value="4"/>
+        					<xs:minInclusive value="1"/>
+        					<xs:maxInclusive value="2021"/>
 						</xs:restriction>
 					</xs:simpleType>
 				</xs:element>
