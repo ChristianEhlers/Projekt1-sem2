@@ -2,11 +2,42 @@
 /* CSS Document */
 
 books {
-	display: block;
-	background-color:brown;
-	width: 40%;
+	display: flex;
+	flex-direction: column;
+	background-color:grey;
+	width: 75vw;
+	margin-bottom: 10px;
 }
 
-title {
+/* title {
+	display: block;
+	margin: 5px;
+}
+
+sub_title {
 	display: block;
 }
+
+edition {
+	display: block;
+}
+
+authors {
+	display: block;
+}
+
+publisher {
+	display: block;
+}
+
+pages {
+	display: block;
+}
+
+isbn {
+	display: block;
+}
+
+price {
+	display: block;
+} */
