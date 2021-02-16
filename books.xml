@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<booksLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="books.xsd">
+<booksLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			  xsi:noNamespaceSchemaLocation="books.xsd">
   <books>
     <title>Get Programming With Node.js</title>
-    <sub_title/>
+    <sub_title>test</sub_title>
     <edition>1st</edition>
     <authors>
       <author>Jonathan Wexler</author>
@@ -57,6 +58,36 @@
       <year>2020</year>
     </publisher>
     <pages>347</pages>
+    <isbn>1234567890</isbn>
+    <price>289,95</price>
+  </books>
+  <books>
+    <title>A new book title</title>
+    <sub_title>A sub title for the new book</sub_title>
+    <edition>5th</edition>
+    <authors>
+      <author>Christian Dum Dum</author>
+    </authors>
+    <publisher>
+      <name>Book Publishing Co.</name>
+      <year>2020</year>
+    </publisher>
+    <pages>347</pages>
+    <isbn>1234567890</isbn>
+    <price>289,95</price>
+  </books>
+  <books>
+    <title>Another new book title</title>
+    <sub_title>A new sub title for the new book</sub_title>
+    <edition>5th</edition>
+    <authors>
+      <author>Christian Træls Træls</author>
+    </authors>
+    <publisher>
+      <name>Book Publishing Co.</name>
+      <year>2021</year>
+    </publisher>
+    <pages>587</pages>
     <isbn>1234567890</isbn>
     <price>289,95</price>
   </books>

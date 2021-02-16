@@ -39,6 +39,28 @@ fs.readFile("books.xml", "utf-8", function(err, data){
 
         result.booksLibrary.books.push(newBook);
 
+        const newBook2 = {
+            title: ['Another new book title'],
+            sub_title: ['A new sub title for the new book'],
+            edition: ["5th"],
+            authors: [
+                {
+                    author: ["Christian Træls Træls"]
+                }
+            ],
+            publisher: [
+                {
+                    name: ["Book Publishing Co."],
+                    year: ["2021"],
+                }
+            ],
+            pages: ["587"],
+            isbn: ["1234567890"],
+            price: ["289,95"]
+        };
+
+        result.booksLibrary.books.push(newBook2);
+
         //Convert JSON object to XML
         const builder = new xml2js.Builder();
         const xml = builder.buildObject(result);
