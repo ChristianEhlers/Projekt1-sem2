@@ -1,0 +1,22 @@
+{
+  "name": "projekt1-sem2",
+  "version": "1.0.0",
+  "description": "Project 1 of web developer 2nd semester",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianEhlers/Projekt1-sem2.git"
+  },
+  "author": "Christian & Kenneth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristianEhlers/Projekt1-sem2/issues"
+  },
+  "homepage": "https://github.com/ChristianEhlers/Projekt1-sem2#readme",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
+}

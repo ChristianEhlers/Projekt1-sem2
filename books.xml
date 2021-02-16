@@ -1,51 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="style/style.css"?>
-<booksLibrary 
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"			  
-	xsi:noNamespaceSchemaLocation="books.xsd">
-	<books>
-		<title>Get Programming With Node.js</title>
-		<sub_title></sub_title>
-		<edition>1st</edition>
-		<authors>
-			<author>Jonathan Wexler</author>
-		</authors>
-		<publisher>
-			<name>Manning publications Co.</name>
-			<year>2019</year>
-		</publisher>
-		<pages>438</pages>
-		<isbn>9781617294747</isbn>
-		<price>214,95</price>
-	</books>
-	<books>
-		<title>Learning Web Design</title>
-		<sub_title>A beginner's guide to HTML, CSS, JavaScript, and Web graphics</sub_title>
-		<edition>5th</edition>
-		<authors>
-			<author>Jennifer Niederst Robbins</author>
-		</authors>
-		<publisher>
-			<name>O'Reilly</name>
-			<year>2018</year>
-		</publisher>
-		<pages>766</pages>
-		<isbn>9781491960202</isbn>
-		<price>259,95</price>
-	</books>
-	<books>
-		<title>Visuel Kommunikation</title>
-		<sub_title>På digitale medier</sub_title>
-		<edition>1st</edition>
-		<authors>
-			<author>Lisbeth Thorlacius</author>
-		</authors>
-		<publisher>
-			<name>Samfundslitteratur</name>
-			<year>20187</year>
-		</publisher>
-		<pages>255</pages>
-		<isbn>9788759326725</isbn>
-		<price>229,95</price>
-	</books>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<booksLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="books.xsd">
+  <books>
+    <title>Get Programming With Node.js</title>
+    <sub_title/>
+    <edition>1st</edition>
+    <authors>
+      <author>Jonathan Wexler</author>
+    </authors>
+    <publisher>
+      <name>Manning publications Co.</name>
+      <year>2019</year>
+    </publisher>
+    <pages>438</pages>
+    <isbn>9781617294747</isbn>
+    <price>214,95</price>
+  </books>
+  <books>
+    <title>Learning Web Design</title>
+    <sub_title>A beginner's guide to HTML, CSS, JavaScript, and Web graphics</sub_title>
+    <edition>5th</edition>
+    <authors>
+      <author>Jennifer Niederst Robbins</author>
+    </authors>
+    <publisher>
+      <name>O'Reilly</name>
+      <year>2018</year>
+    </publisher>
+    <pages>766</pages>
+    <isbn>9781491960202</isbn>
+    <price>259,95</price>
+  </books>
+  <books>
+    <title>Visuel Kommunikation</title>
+    <sub_title>På digitale medier</sub_title>
+    <edition>1st</edition>
+    <authors>
+      <author>Lisbeth Thorlacius</author>
+    </authors>
+    <publisher>
+      <name>Samfundslitteratur</name>
+      <year>20187</year>
+    </publisher>
+    <pages>255</pages>
+    <isbn>9788759326725</isbn>
+    <price>229,95</price>
+  </books>
+  <books>
+    <title>A new book title</title>
+    <sub_title>A sub title for the new book</sub_title>
+    <edition>5th</edition>
+    <authors>
+      <author>Christian Dum Dum</author>
+    </authors>
+    <publisher>
+      <name>Book Publishing Co.</name>
+      <year>2020</year>
+    </publisher>
+    <pages>347</pages>
+    <isbn>1234567890</isbn>
+    <price>289,95</price>
+  </books>
 </booksLibrary>
