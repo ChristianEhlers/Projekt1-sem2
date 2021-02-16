@@ -3,3 +3,9 @@
 h1{
 	font-size: 20px;
 }
+
+input{
+	display: flex;
+  	align-items: stretch;
+	margin-bottom: 10px;
+}
