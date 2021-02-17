@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Projekt 1</title>
-<link rel="stylesheet" href="../style/formular.css">
-<link rel="stylesheet" href="../style/style.css">
+<link rel="stylesheet" href="formular.css">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="showXML.js"></script>
 </head>
 <body>
 	
@@ -12,16 +13,16 @@
 	
 	<section id="test">
 	<section id="test2">
-	<form method="POST" action="/index.html">
-		<input type="text" name="title" placeholder="Title">
-		<input type="text" name="sub_title" placeholder="Sub title">
-		<input type="text" name="edition" placeholder="Edition">
-		<input type="text" name="authors" placeholder="Author(s)">
-		<input type="text" name="publisher" placeholder="Publisher's name">
-		<input type="number" name="year" placeholder="Publised in year">
-		<input type="number" name="pages" placeholder="Pages">
-		<input type="number" name="isbn" placeholder="ISBN">
-		<input type="number" name="price" placeholder="Price">
+	<form method="POST" action="/index">
+		<input id="title" type="text" name="title" placeholder="Title">
+		<input id="sub_title" type="text" name="sub_title" placeholder="Sub title">
+		<input id="edition" type="text" name="edition" placeholder="Edition">
+		<input id="authors" type="text" name="authors" placeholder="Author(s)">
+		<input id="publisher" type="text" name="publisher" placeholder="Publisher's name">
+		<input id="year" type="number" name="year" placeholder="Published in year">
+		<input id="pages" type="number" name="pages" placeholder="Pages">
+		<input id="isbn" type="number" name="isbn" placeholder="ISBN">
+		<input id="price" type="number" name="price" placeholder="Price">
 		<input type="submit" value="Submit">
 	</form>
 	</section>
@@ -33,6 +34,5 @@
 
 	</section>
 
-	<script src="../script/script.js"></script>
 </body>
 </html>

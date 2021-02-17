@@ -49,7 +49,7 @@ fs.readFile("books.xml", "utf-8", function(err, data){
                 throw err;
             }
 
-            console.log('Updated XML is written to a new file');
+            console.log('Updated books.xml with a new book');
 
         });
 

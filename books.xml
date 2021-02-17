@@ -45,49 +45,4 @@
     <isbn>9788759326725</isbn>
     <price>229,95</price>
   </books>
-  <books>
-    <title>A new book title</title>
-    <sub_title>A sub title for the new book</sub_title>
-    <edition>5th</edition>
-    <authors>
-      <author>J.K. Rowling</author>
-    </authors>
-    <publisher>
-      <name>Book Publishing Co.</name>
-      <year>2020</year>
-    </publisher>
-    <pages>347</pages>
-    <isbn>1234567890</isbn>
-    <price>289,95</price>
-  </books>
-  <books>
-    <title>A new book title</title>
-    <sub_title>A sub title for the new book</sub_title>
-    <edition>5th</edition>
-    <authors>
-      <author>Hans Christian Andersen</author>
-    </authors>
-    <publisher>
-      <name>Book Publishing Co.</name>
-      <year>2020</year>
-    </publisher>
-    <pages>347</pages>
-    <isbn>1234567890</isbn>
-    <price>289,95</price>
-  </books>
-  <books>
-    <title>Another new book title</title>
-    <sub_title>A new sub title for the new book</sub_title>
-    <edition>5th</edition>
-    <authors>
-      <author>Karen Blixen</author>
-    </authors>
-    <publisher>
-      <name>Book Publishing Co.</name>
-      <year>2021</year>
-    </publisher>
-    <pages>587</pages>
-    <isbn>1234567890</isbn>
-    <price>289,95</price>
-  </books>
 </booksLibrary>
