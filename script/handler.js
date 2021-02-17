@@ -8,7 +8,7 @@ const getAndServe = async function (response, path, content) {   // asynchronous
         if (err) {
             console.log(`Not found file: ${path}`);
         } else {
-            res.writeHead(httpStatus.OK, {          // yes, write header
+            response.writeHead(httpStatus.OK, {          // yes, write header
                 "Content-Type": content
             });
             response.write(data);

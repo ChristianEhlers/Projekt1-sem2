@@ -2,7 +2,8 @@ const handler = require("./handler");
 
 const requestHandlers = {                   // application urls here
     GET: {
-        "/index": handler.home                 // static resources
+        "/index": handler.home,                 // static resources
+        "/": handler.home
     },
     POST: {
         "/index": handler.updateBooks   // contacts data from form
