@@ -117,27 +117,3 @@ module.exports = {
         response.end();
     }   
 }
-
-
-
-
-//Template for adding new book to XML file manually
-// const newBook = {
-//     title: ['A new book title'],
-//     sub_title: ['A sub title for the new book'],
-//     edition: ["5th"],
-//     authors: [
-//         {
-//             author: ["Christian Dum Dum"]
-//         }
-//     ],
-//     publisher: [
-//         {
-//             name: ["Book Publishing Co."],
-//             year: ["2020"],
-//         }
-//     ],
-//     pages: ["347"],
-//     isbn: ["1234567890"],
-//     price: ["289,95"]
-// };
