@@ -4,6 +4,7 @@ const requestHandlers = {                   // application urls here
     GET: {
         "/index": handler.home,                 // static resources
         "/": handler.home,
+        "/books":handler.books,
         "js": handler.js,
         "css": handler.css
     },

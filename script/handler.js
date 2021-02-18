@@ -28,6 +28,15 @@ module.exports = {
         let content = "text/html; charset=utf-8";
         getAndServe(response, path, content);
     },
+    books(request, response) {
+        let path = request.url;
+        if (path === "/") {
+            path = "/books";
+        }
+        path = "views" + path + ".html";
+        let content = "text/html; charset=utf-8";
+        getAndServe(response, path, content);
+    },
     css(request, response) {
         let path = "style" + request.url;
         let content = "text/css; charset=utf-8";
