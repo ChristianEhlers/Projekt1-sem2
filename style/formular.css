@@ -4,17 +4,21 @@ h1{
 	font-size: 20px;
 }
 
-#test {
+h2 {
+	font-size: 18px;
+}
+
+#outerSection {
 	display: flex;
 	flex-direction: row;
 }
 
-#test2 {
+#innerSection1 {
 	width: 50vw;
 }
 
-#test3 {
-	width: 75vw;
+#innerSection2 {
+	width: 50vw;
 }
 
 input{
