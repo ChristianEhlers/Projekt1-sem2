@@ -55,29 +55,27 @@ module.exports = {
                 }
 
                 //replace an element in our JSON file
-                //result.booksLibrary.books[2].title = 'Test book title';
-
-                //let title = document.getElementById('title').value;
+                //result.booksLibrary.books[2].title = 'Test book title';                 
 
                 //Add a new book to Library
                 const newBook = {
-                    title: ['A new book title'],
-                    sub_title: ['A sub title for the new book'],
-                    edition: ["5th"],
+                    title: obj.POST.title,
+                    sub_title: obj.POST.sub_title,
+                    edition: obj.POST.edition,
                     authors: [
                         {
-                            author: ["Christian Dum Dum"]
+                            author: obj.POST.authors
                         }
                     ],
                     publisher: [
                         {
-                            name: ["Book Publishing Co."],
-                            year: ["2020"],
+                            name: obj.POST.publisher,
+                            year: obj.POST.year,
                         }
                     ],
-                    pages: ["347"],
-                    isbn: ["1234567890"],
-                    price: ["289,95"]
+                    pages: obj.POST.pages,
+                    isbn: obj.POST.isbn,
+                    price: obj.POST.price
                 };
 
                 result.booksLibrary.books.push(newBook);
@@ -110,3 +108,27 @@ module.exports = {
         response.end();
     }   
 }
+
+
+
+
+//Template for adding new book to XML file manually
+// const newBook = {
+//     title: ['A new book title'],
+//     sub_title: ['A sub title for the new book'],
+//     edition: ["5th"],
+//     authors: [
+//         {
+//             author: ["Christian Dum Dum"]
+//         }
+//     ],
+//     publisher: [
+//         {
+//             name: ["Book Publishing Co."],
+//             year: ["2020"],
+//         }
+//     ],
+//     pages: ["347"],
+//     isbn: ["1234567890"],
+//     price: ["289,95"]
+// };
