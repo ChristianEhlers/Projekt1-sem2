@@ -6,7 +6,8 @@ const requestHandlers = {                   // application urls here
         "/": handler.home,
         "/books":handler.books,
         "js": handler.js,
-        "css": handler.css
+        "css": handler.css,
+        "xml": handler.xml
     },
     POST: {
         "/index": handler.updateBooks   // contacts data from form

@@ -47,12 +47,17 @@ module.exports = {
         let content = "application/javascript; charset=utf-8";
         getAndServe(response, path, content);
     },
+    xml(request, response) {
+        let path = "xml" + request.url;
+        let content = "text/xml";
+        getAndServe(response, path, content);
+    },
     updateBooks (request, response, data) {
         let obj = util.makeWebArrays(request, data);
         console.log(`${obj.POST.title}`);
 
         //read XML file
-        fs.readFile("books.xml", "utf-8", function(err, data){
+        fs.readFile("xml/books.xml", "utf-8", function(err, data){
             if (err) {
                 throw err;
             }
@@ -94,7 +99,7 @@ module.exports = {
                 const xml = builder.buildObject(result);
 
                 //write updated XML string to a file
-                fs.writeFile('books.xml', xml, function(err) {
+                fs.writeFile('xml/books.xml', xml, function(err) {
                     if (err) {
                         throw err;
                     }
