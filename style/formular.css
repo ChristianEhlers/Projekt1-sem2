@@ -18,7 +18,7 @@ h2 {
 }
 
 #innerSection2 {
-	width: 50vw;
+	max-width: 30vw;
 }
 
 input{

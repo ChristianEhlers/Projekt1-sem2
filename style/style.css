@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+booksLibrary {
+	width: 30vw;
+}
+
 books {
 	display: flex;
 	flex-direction: column;
